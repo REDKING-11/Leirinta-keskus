@@ -1,5 +1,3 @@
-# Leirintä-keskus
-=======
 # Taipaleen leirintä keskus                                                      [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/license/gpl-3-0)
 Taipaleen leirintäkeskus on suosittu leirintäalue, joka tarjoaa ajankohtaista tietoa alueen palveluista ja tapahtumista. Käyttäjät voivat jakaa kokemuksiaan, kirjoittaa arvioita ja osallistua keskusteluihin. Alusta on suunniteltu leirintämatkailijoille, perheille ja luonnon ystäville, jotka haluavat pysyä ajan tasalla ja jakaa vinkkejä.
 ## Vision Diagram
@@ -13,6 +11,7 @@ flowchart TD
     C -->|Keskus yksi| D[ranta]
     C -->|keskus kaksi| E[retkeily]
     C -->|keskus kolme| F[fa:fa-house rentoilu]
+
 ```
 ## Roadmap
 
