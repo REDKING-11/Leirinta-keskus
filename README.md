@@ -25,6 +25,8 @@ flowchart TD
 - [@dmitrii6660](https://github.com/dmitrii6660) (Graphical Designer)
 ## Features
 
+- **HTML**: Hienoa tulevaisuuden teknologiaa uusinta uutta
+- **CSS**: Tuli HTML mukana
 - **kartta**: kyllä voit nähdä kaikki alueemme google mapsista
 ## FAQ
 
@@ -43,3 +45,7 @@ Erityiset kiitokset:
 - Yhteisöllemme jatkuvasta tuesta ja palautteesta.
 - Kehitystiimillemme heidän väsymättömästä työstään.
 - Kaikille kontribuuttoreille, jotka ovat jakaneet aikaansa ja asiantuntemustaan.
+## Käyttö ohje
+avaa sivu selain ja avaa sivu ole hyvä
+tai paina tästä
+[The really cool website](https://noveltyemails.com/fuckyou.com)
