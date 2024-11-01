@@ -40,3 +40,7 @@ Erityiset kiitokset:
 - Yhteisöllemme jatkuvasta tuesta ja palautteesta.
 - Kehitystiimillemme heidän väsymättömästä työstään.
 - Kaikille kontribuuttoreille, jotka ovat jakaneet aikaansa ja asiantuntemustaan.
+## Käyttö ohje
+avaa sivu selain ja avaa sivu ole hyvä
+tai paina tästä
+[The really cool website](https://noveltyemails.com/fuckyou.com)
