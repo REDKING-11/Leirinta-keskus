@@ -2,14 +2,17 @@
 Taipaleen leirintäkeskus on suosittu leirintäalue, joka tarjoaa ajankohtaista tietoa alueen palveluista ja tapahtumista. Käyttäjät voivat jakaa kokemuksiaan, kirjoittaa arvioita ja osallistua keskusteluihin. Alusta on suunniteltu leirintämatkailijoille, perheille ja luonnon ystäville, jotka haluavat pysyä ajan tasalla ja jakaa vinkkejä.
 ## Vision Diagram
 
-This diagram represents our goals for the future:
+Tämä kaavio esittää tavoitteemme tulevaisuudelle:
 
+```mermaid
 flowchart TD
     A[Leirintäkeskus] -->|hanki rahaa| B(jatka toimintaa)
     B --> C{suunnittele kesää}
     C -->|Keskus yksi| D[ranta]
     C -->|keskus kaksi| E[retkeily]
     C -->|keskus kolme| F[fa:fa-house rentoilu]
+
+```
 ## Roadmap
 
 - Q4 2024: example 1
