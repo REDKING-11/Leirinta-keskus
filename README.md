@@ -1,20 +1,15 @@
-<<<<<<< Updated upstream
-# Leirint-keskus
-=======
 # Taipaleen leirintä keskus                                                      [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/license/gpl-3-0)
 Taipaleen leirintäkeskus on suosittu leirintäalue, joka tarjoaa ajankohtaista tietoa alueen palveluista ja tapahtumista. Käyttäjät voivat jakaa kokemuksiaan, kirjoittaa arvioita ja osallistua keskusteluihin. Alusta on suunniteltu leirintämatkailijoille, perheille ja luonnon ystäville, jotka haluavat pysyä ajan tasalla ja jakaa vinkkejä.
 ## Vision Diagram
 
-Tämä kaavio esittää tavoitteemme tulevaisuudelle:
+This diagram represents our goals for the future:
 
-```mermaid
 flowchart TD
     A[Leirintäkeskus] -->|hanki rahaa| B(jatka toimintaa)
     B --> C{suunnittele kesää}
     C -->|Keskus yksi| D[ranta]
     C -->|keskus kaksi| E[retkeily]
     C -->|keskus kolme| F[fa:fa-house rentoilu]
-```
 ## Roadmap
 
 - Q4 2024: example 1
@@ -45,4 +40,3 @@ Erityiset kiitokset:
 - Yhteisöllemme jatkuvasta tuesta ja palautteesta.
 - Kehitystiimillemme heidän väsymättömästä työstään.
 - Kaikille kontribuuttoreille, jotka ovat jakaneet aikaansa ja asiantuntemustaan.
->>>>>>> Stashed changes
