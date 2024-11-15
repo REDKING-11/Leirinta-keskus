@@ -1,5 +1,17 @@
-* {margin: 0px;}
-
-header {
-    height: 100px;
+.header {
+    font-size: 32px !important; 
+}
+#Front-page-photo {
+    width: 1920px;
+    height: 550px;
+}
+body {
+    overflow-x: hidden;
+}
+main {
+    font-size: 23.5px;
+}
+a {
+    color: white !important;
+    font-size: 19px !important;
 }
