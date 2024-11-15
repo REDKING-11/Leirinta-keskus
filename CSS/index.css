@@ -11,7 +11,7 @@ body {
 main {
     font-size: 23.5px;
 }
-a {
+.a {
     color: white !important;
     font-size: 19px !important;
 }
