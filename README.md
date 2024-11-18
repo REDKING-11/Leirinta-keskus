@@ -1,8 +1,14 @@
-# Taipaleen leirintä keskus                                                      [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/license/gpl-3-0)
-Taipaleen leirintäkeskus on suosittu leirintäalue,tämä sivusto tarjoaa ajankohtaista tietoa alueen palveluista ja tapahtumista. Käyttäjät voivat jakaa kokemuksiaan ja kirjoittaa arvioita. Taipaleen leirintäkeskus on suunniteltu leirintämatkailijoille, perheille ja luonnon ystäville.
-## Vision Diagram
 
-This diagram represents our goals for the future:
+# Taipaleen Leirintäkeskus  
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/license/gpl-3-0)
+
+**Taipaleen Leirintäkeskus** on suosittu leirintäalue, joka tarjoaa monipuolisia palveluita ja elämyksiä luonnon keskellä. Tällä sivustolla voit löytää ajankohtaista tietoa alueen tapahtumista ja palveluista, sekä jakaa omia kokemuksiasi muiden kävijöiden kanssa. Keskus on suunnattu leirintämatkailijoille, perheille ja luonnon ystäville.
+
+---
+
+## Vision Diagram  
+
+Tämä kaavio esittää tavoitteemme tulevaisuudelle:
 
 flowchart TD
     A[Leirintäkeskus] -->|hanki rahaa| B(jatka toimintaa)
@@ -10,6 +16,8 @@ flowchart TD
     C -->|Keskus yksi| D[ranta]
     C -->|keskus kaksi| E[retkeily]
     C -->|keskus kolme| F[fa:fa-house rentoilu]
+
+```
 ## Roadmap
 
 - Q4 2024: example 1
@@ -17,32 +25,50 @@ flowchart TD
 - Q2 2025: example 3
 ## Authors
 
-- [@N1louuu](https://www.github.com/N1louuu) (Master)
-- [@REDKING-11](https://www.github.com/redking-11) (Coder)
-- [@dmitrii6660](https://github.com/dmitrii6660) (Graphical Designer)
-## Features
+- [@N1louuu](https://www.github.com/N1louuu) – Projektinvetäjä  
+- [@REDKING-11](https://www.github.com/redking-11) – Ohjelmoija  
+- [@dmitrii6660](https://github.com/dmitrii6660) – Graafinen suunnittelija  
 
-- **HTML**: Hienoa tulevaisuuden teknologiaa uusinta uutta
-- **CSS**: Tuli HTML mukana
-- **kartta**: kyllä voit nähdä kaikki alueemme google mapsista
-## FAQ
+---
 
-#### Voinko esittää kysymyksiä?
-Kyllä, voit vapaasti ottaa meihin yhteyttä sähköpostitse tai yhteisöfoorumeillamme.
+## Ominaisuudet  
 
-#### Miksi täällä ei ole kysymyksiä?
-Tämä UKK (usein kysytyt kysymykset) on uusi, mutta aiomme laajentaa sitä, kun saamme lisää palautetta ja kysymyksiä.
-## Feedback
-jos sinulla on mitään ideoita tai palautetta ota yhteyttä example@gmail.com kiitos
-## Acknowledgements
-Laajennamme syvimmät kiitoksemme kaikille, jotka ovat tukeneet Taipaleen leirintäkeskus -projektia. Ideanne, ehdotuksenne ja kovaa työtä ovat tehneet tästä alustasta todellisuuden, ja panoksenne ovat auttaneet muovaamaan Taipaleen leirintäkeskusta sellaiseksi kuin se on tänään.
+- **HTML**: Modernit ja responsiiviset verkkosivut  
+- **CSS**: Tyylikäs ulkoasu ja käytettävyys  
+- **Karttaominaisuus**: Tarkastele alueen sijaintia Google Mapsissa  
 
-Erityiset kiitokset:
+---
 
-- Yhteisöllemme jatkuvasta tuesta ja palautteesta.
-- Kehitystiimillemme heidän väsymättömästä työstään.
-- Kaikille kontribuuttoreille, jotka ovat jakaneet aikaansa ja asiantuntemustaan.
-## Käyttö ohje
-avaa sivu selain ja avaa sivu ole hyvä
-tai paina tästä
-[The really cool website](https://noveltyemails.com/fuckyou.com)
+## Usein kysytyt kysymykset (FAQ)  
+
+#### Voinko esittää kysymyksiä?  
+Kyllä! Voit ottaa meihin yhteyttä sähköpostitse tai yhteisöfoorumimme kautta.
+
+#### Miksi kysymyksiä on niin vähän?  
+UKK-osio on vielä kehitteillä. Laajennamme sisältöä käyttäjäpalautteen perusteella.  
+
+---
+
+## Palaute  
+
+Jos sinulla on kehitysehdotuksia tai haluat antaa palautetta, lähetä viesti osoitteeseen **example@gmail.com**. Kiitos!  
+
+---
+
+## Kiitokset  
+
+Lämmin kiitos kaikille, jotka ovat tukeneet **Taipaleen Leirintäkeskuksen** kehitystä. Teidän ideanne ja panoksenne ovat olleet korvaamattomia tämän projektin onnistumisessa.
+
+Erityiskiitokset:  
+- Yhteisöllemme, joka jakaa ideoita ja palautetta.  
+- Kehitystiimille heidän omistautumisestaan.  
+- Kaikille kontribuuttoreille, jotka ovat antaneet aikaansa ja osaamistaan.
+
+---
+
+## Käyttöohje  
+
+1. Avaa sivu selaimessasi.  
+2. Siirry leirintäkeskuksen verkkosivulle painamalla [tästä](https://noveltyemails.com/fuckyou.com).  
+
+---

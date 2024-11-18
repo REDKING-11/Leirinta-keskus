@@ -1,4 +1,19 @@
+.header {
+    font-size: 32px !important; 
+}
+body {
+    overflow-x: hidden;
+    background-color: #2F2F2F !important;
+}
 .a {
     color: white !important;
     font-size: 19px !important;
+}
+.Ruuat {
+    display: flex;
+    justify-content: center;
+    color: #FFF8DC;
+}
+.Kuva-ruuat {
+    font-size: 34px;
 }
