@@ -43,6 +43,7 @@ body {
     text-align: center;
 }
 .text-box {
+    margin: 15px;
     background-color: rgba(50, 50, 50, 0.6); /* Tumma harmaa, 60% läpinäkyvä */
-    border-radius: 10px;
+    border-radius: 20px;
 }
