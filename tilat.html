@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/toiminta.css">
+    <link rel="stylesheet" href="CSS/tilat.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>toiminta</title>
+    <title>Leirintä keskus</title>
 </head>
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-color: green !important; padding: 0;">
             <div class="container-fluid" style="background-color: green; border-color: green !important;">
                 <a class="navbar-brand header" href="#" style="color: black !important;">Leirintä keskus</a>
@@ -42,61 +41,38 @@
                 </div>
             </div>
         </nav>
-
     </header>
     <main>
         <div id="Alkutiedot">
-            <h1>Toiminta</h1>
+            <h1>Tilat</h1>
             <div id="info_box">
-                <p>Taipaleen leirintäkeskuksessa on monenlaista toimintaa ympäri vuoden.</p>
-            </div>            
-        </div>
-        <div class="section_div">
-            <h1 class="section_h1" >Esiintyjät</h1>
-            <div class="flex_row">
-                <div class="section_img"></div>
-                <div class="section_p">
-                    <p>Leirintäkeskuksen pääsalissa on useina kesäiltoina erilaisia musiikki- tai tanssiesityksiä sekä ajoittain myös standup komiikkaa.</p> 
-                </div>
-                <div class="flex_column" id="joku1">
-                    <h2>28.6 Joku</h2>
-                    <div class="esiintyjä_kuva" style="background-image: url(CSS/joku.jpg);"></div>
-                </div>
-                <div class="flex_column" id="joku2">
-                    <h2>29.6 Joku</h2>
-                    <div class="esiintyjä_kuva" style="background-image: url(CSS/joku.jpg);"></div>
-                </div>
-                <div class="minikuva" style="background-image: url(CSS/ecda894ed4774cc6cb006be0a82b3ea8.png);"></div>
+                <p>Meiltä löytyy vuokrattavia tiloja eri tarpeisiin.</p>
             </div>
         </div>
-
-        <div class="section_div">
-            <h1 class="section_h1" >Venevuokraus</h1>
-            <div class="flex_row">
-                <div class="section_img" style="background-image: url(CSS/boat-8846578_640.webp);"></div>
-                <div class="section_p">
-                    <p>Soutuveneitä voi vuokrata päärakennukselta kesäkaudella hintaan 5 € tunti. Maksimiaika vuokraukselle on kuusi tuntia.</p> 
+        <div id="first_box">
+            <div class="content_box">
+                <h1 class="box_h1">Juhlatila</h1>
+                <h4 class="mini_text">80 hlö | 50-35€/h</h4>
+                <div id="juhla_kuva">
+                    <div class="cover_effect"><p>Meiltä löytyy ruokasali maksimissaan 80 hengelle. Se sopii hyvin esimerkiksi häiden tai syntymäpäiväjuhlien järjestämiseen, mutta tilassa onnistuvat myös kokoukset. Tarjoamme myös pitopalvelun. Tilan hinta on kesäkaudella 50 € per tunti ja talvikaudella 35 € tunti. Pitopalvelu maksaa erikseen.</p></div>
+                </div>
+            </div>
+            <div class="content_box">
+                <h1 class="box_h1">Kokoustila</h1>
+                <h4 class="mini_text">35 hlö | 29€/h</h4>
+                <div id="kokous_kuva">
+                    <div class="cover_effect"><p>Kokoustilaamme mahtuu yhtä aikaa 35 henkilöä. On myös mahdollista tilata pitopalvelustamme kahvitarjoilu lisähintaan. Tilan hinta on 29 € tunnilta.</p></div>
                 </div>
             </div>
         </div>
-
-        <div class="section_div">
-            <h1 class="section_h1" >Kylpyläosasto</h1>
-            <div class="flex_row">
-                <div class="section_img" style="background-image: url(CSS/pool-5055009_1920.jpg);"></div>
-                <div class="section_p_long">
-                    <p>Leirintäkeskuksen kylpyläosasto on auki vuoden ympäri. Kesällä käytössä on myös ulkoallas. Kylpyläosastolla on syvä uima-allas, kaksi poreallasta sekä yksi lasten allas liukumäkineen. Saunaosastolla on tavallinen sauna sekä höyrysauna. Hinta aikuiselta 12 €, opiskelijalta tai eläkeläiseltä 10 € ja kouluikäiseltä lapselta 6 €. Alle kouluikäiset uivat ilmaiseksi.</p> 
-                </div>
-            </div>
-        </div>
-
-        <div class="section_div">
-            <h1 class="section_h1" >Opastetut luontoretket</h1>
-            <div class="flex_row">
-                <div class="section_img" style="background-image: url(CSS/mountains-4375608_1920.jpg);"></div>
-                <div class="section_p_long">
-                    <p>Kesäaikaan joka lauantai on tarjolla opastettu luontoretki, jolle lähdetään kello 13 päärakennukselta. Reitti ei ole esteetön. Ei vaadi kovaa kuntoa. Hintaan sisältyy pienet eväät. Kesto noin kolme tuntia. Hinta 15 € aikuiselta, 12 € opiskelijalta tai eläkeläiseltä ja 8 € kouluikäiseltä lapselta. Alle kouluikäiset pääsevät mukaan ilmaiseksi.</p> 
-                </div>
+        <div id="big_box">
+            <h1 class="box_h1">Luokkahuone</h1>
+            <h4 style="margin-left: 100px;" class="mini_text">30 hlö | 25€/h</h4>
+            <div id="rowi">
+                <div id="luokka_kuva"></div>
+                <div id="big_box_p_div">
+                    <p>Meillä on myös pienempiä tapaamisia varten luokkahuone, johon mahtuu maksimissaan 30 henkilöä. Se soveltuu pienemmille kokouksille tai esimerkiksi koulutuksiin. On myös mahdollista tilata pitopalvelustamme kahvitarjoilu lisähintaan. Tilan hinta on 25 € tunnilta.</p>
+                </div>                
             </div>
         </div>
     </main>
