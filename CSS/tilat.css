@@ -96,7 +96,7 @@ main h1 {
 #juhla_kuva {
     position: relative;
     background-size: cover;
-    background-image: url("istockphoto-1073455468-1024x1024.jpg");
+    background-image: url("../kuvia/istockphoto-1073455468-1024x1024.jpg");
     width: 90%;
     height: 70%;
     margin: 20px;
@@ -121,7 +121,7 @@ main h1 {
 #kokous_kuva {
     position: relative;
     background-size:cover;
-    background-image: url("interior-1961070_1920.jpg");
+    background-image: url("../kuvia/interior-1961070_1920.jpg");
     width: 90%;
     height: 70%;
     margin: 20px;
@@ -130,7 +130,7 @@ main h1 {
 
 #luokka_kuva {
     background-size: cover;
-    background-image: url("school-6900381_1920.jpg");
+    background-image: url("../kuvia/school-6900381_1920.jpg");
     width: 60%;
     height: 85%;
     margin: 20px;

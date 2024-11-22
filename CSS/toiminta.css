@@ -14,7 +14,7 @@ header h1 {
 
 body {
     background-size:cover;
-    background-image: url("north-4756774.jpg");
+    background-image: url("../kuvia/north-4756774.jpg");
 }
 
 .content {
@@ -82,7 +82,7 @@ main p {
     width: 400px;
     height: 400px;
     background-size:cover;
-    background-image: url("auditorium-86197_1920.jpg");
+    background-image: url("../kuvia/auditorium-86197_1920.jpg");
     border-radius: 25px;
     margin: 30px;
     margin-left: 50px;
