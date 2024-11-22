@@ -8,31 +8,22 @@
 
 ## Vision Diagram  
 
-Alla oleva kaavio havainnollistaa tavoitteitamme ja kehityssuunnitelmiamme:  
+Tämä kaavio esittää tavoitteemme tulevaisuudelle:
 
-```mermaid
 flowchart TD
-    A[Leirintäkeskus] -->|Hanki rahoitusta| B[Jatka toimintaa]
-    B --> C{Suunnittele tulevaa kesää}
-    C -->|Keskittymä 1| D[Ranta-aktiviteetit]
-    C -->|Keskittymä 2| E[Retkeilyreitit]
-    C -->|Keskittymä 3| F[fa:fa-house Rentoutumisalue]
-    F --> G[Uudet majoitusvaihtoehdot]
-    G --> H[Perheiden erikoistapahtumat]
-    H --> I[Laajennettu tapahtumakalenteri]
+    A[Leirintäkeskus] -->|hanki rahaa| B(jatka toimintaa)
+    B --> C{suunnittele kesää}
+    C -->|Keskus yksi| D[ranta]
+    C -->|keskus kaksi| E[retkeily]
+    C -->|keskus kolme| F[fa:fa-house rentoilu]
+
 ```
+## Roadmap
 
----
-
-## Kehityssuunnitelma (Roadmap)
-
-- **Q4 2024**: Palveluiden kartoitus ja käyttäjäkyselyt  
-- **Q1 2025**: Uusien majoitusvaihtoehtojen käyttöönotto  
-- **Q2 2025**: Tapahtumakalenterin laajentaminen  
-
----
-
-## Tiimi  
+- Q4 2024: example 1
+- Q1 2025: example 2
+- Q2 2025: example 3
+## Authors
 
 - [@N1louuu](https://www.github.com/N1louuu) – Projektinvetäjä  
 - [@REDKING-11](https://www.github.com/redking-11) – Ohjelmoija  
