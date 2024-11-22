@@ -4,10 +4,12 @@
 #Front-page-photo {
     width: 1920px;
     height: 550px;
+    background-size: cover;
 }
 body {
     overflow-x: hidden;
     background-color: #2F2F2F !important;
+    background-size: cover;
 }
 main {
     font-size: 23.5px;
@@ -16,4 +18,9 @@ main {
 .a {
     color: white !important;
     font-size: 19px !important;
+}
+#tekstit {
+    background-color: rgb(47, 47, 47, 0.8);
+
+    border-radius: 20px;
 }
