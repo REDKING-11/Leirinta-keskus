@@ -1,15 +1,12 @@
 .header {
     font-size: 32px !important; 
 }
-
-/*
 #Front-page-photo {
-    width: 100vw;
+    width: 1920px;
     height: 550px;
     background-size: cover;
-    background-image: url("Leirintakeskus-luurinmutka.png");
+    background-image: url("/Leirint-keskus/kuvia/Leirintakeskus-luurinmutka.png");
 }
-    */
 body {
     overflow-x: hidden;
     background-color: #2F2F2F !important;
