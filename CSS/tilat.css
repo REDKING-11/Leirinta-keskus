@@ -1,0 +1,178 @@
+* {margin: 0px;}
+
+.header {
+    font-size: 32px !important; 
+}
+.a {
+    color: white !important;
+    font-size: 19px !important;
+}
+
+body{
+    background-color: #e5e5e5 !important;
+}
+#Alkutiedot {
+    display: flex;
+    flex-direction: row;
+}
+#Alkutiedot h1 {
+    margin: 30px;
+    color: rgb(47, 38, 71);
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+main h1 {
+    margin: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#info_box {
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(115, 115, 115, 0.347);
+    border-radius: 25px;
+}
+
+#info_box p {
+    color: rgb(47, 38, 71);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content_box {
+    background-color: rgb(33, 93, 25);
+    width: 40vw;
+    height: 450px;
+    border-radius: 25px;
+    margin: 4.5vw;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_box:hover {
+    background-color: green;
+    transform: translateY(-4px)
+}
+
+#first_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#big_box {
+    background-color: rgb(33, 93, 25);
+    width: 89vw;
+    height: 500px;
+    border-radius: 25px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+#big_box:hover {
+    background-color: green;
+    transform: translateY(-4px)
+}
+
+.box_h1 {
+    margin: 20px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: default;
+}
+
+#juhla_kuva {
+    position: relative;
+    background-size: cover;
+    background-image: url("istockphoto-1073455468-1024x1024.jpg");
+    width: 90%;
+    height: 70%;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.content_box div p {
+    color: rgb(135, 135, 76, 0);
+    transition: color 0.3s ease;
+    margin: 10px;
+    cursor: default;
+    font-size: 25px;
+    z-index: 1000;
+}
+.content_box:hover div {
+    background-color: rgba(240, 240, 240, 0.751);
+}
+.content_box:hover div p {
+    color: rgb(60, 60, 60);
+    z-index: -1000;
+}
+#kokous_kuva {
+    position: relative;
+    background-size:cover;
+    background-image: url("interior-1961070_1920.jpg");
+    width: 90%;
+    height: 70%;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+#luokka_kuva {
+    background-size: cover;
+    background-image: url("school-6900381_1920.jpg");
+    width: 60%;
+    height: 85%;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.cover_effect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    z-index: 100;
+    transition: background-color 0.6s ease;
+}
+
+#rowi {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#big_box_p_div {
+    background-color: rgba(223, 223, 223, 0.443);;
+    width: 60%;
+    height: 85%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#big_box_p_div p {
+    color: rgb(60, 60, 60);
+    margin: 10px;
+    cursor: default;
+    font-size: 25px;
+    z-index: 1000;
+}
+
+.mini_text {
+    font-size: 15px;
+    margin: 0;
+    color: aliceblue;
+    cursor: default;
+}

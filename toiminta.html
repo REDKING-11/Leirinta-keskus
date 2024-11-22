@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/toiminta.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>toiminta</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-color: green !important; padding: 0;">
+            <div class="container-fluid" style="background-color: green; border-color: green !important;">
+                <a class="navbar-brand header" href="#" style="color: black !important;">Leirintä keskus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active a" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link a" href="#">Link</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sivut</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="toiminta.html">Toiminta</a></li>
+                                <li><a class="dropdown-item" href="ruoka.html">Ruokailut</a></li>
+                                <li><a class="dropdown-item" href="tilat.html">Tilat</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <div class="d-flex justify-content-center" style="width: 55vw;">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success a" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </ul>
+                    <form><button class="btn btn-outline-dark">Log In</button></form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div id="Alkutiedot">
+            <h1>Toiminta</h1>
+            <div id="info_box">
+                <p>Taipaleen leirintäkeskuksessa on monenlaista toimintaa ympäri vuoden.</p>
+            </div>            
+        </div>
+        <div class="section_div">
+            <h1 class="section_h1" >Esiintyjät</h1>
+            <div class="flex_row">
+                <div class="section_img"></div>
+                <div class="section_p">
+                    <p>Leirintäkeskuksen pääsalissa on useina kesäiltoina erilaisia musiikki- tai tanssiesityksiä sekä ajoittain myös standup komiikkaa.</p> 
+                </div>
+                <div class="flex_column" id="joku1">
+                    <h2>28.6 Joku</h2>
+                    <div class="esiintyjä_kuva" style="background-image: url(CSS/joku.jpg);"></div>
+                </div>
+                <div class="flex_column" id="joku2">
+                    <h2>29.6 Joku</h2>
+                    <div class="esiintyjä_kuva" style="background-image: url(CSS/joku.jpg);"></div>
+                </div>
+                <div class="minikuva" style="background-image: url(CSS/ecda894ed4774cc6cb006be0a82b3ea8.png);"></div>
+            </div>
+        </div>
+
+        <div class="section_div">
+            <h1 class="section_h1" >Venevuokraus</h1>
+            <div class="flex_row">
+                <div class="section_img" style="background-image: url(CSS/boat-8846578_640.webp);"></div>
+                <div class="section_p">
+                    <p>Soutuveneitä voi vuokrata päärakennukselta kesäkaudella hintaan 5 € tunti. Maksimiaika vuokraukselle on kuusi tuntia.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="section_div">
+            <h1 class="section_h1" >Kylpyläosasto</h1>
+            <div class="flex_row">
+                <div class="section_img" style="background-image: url(CSS/pool-5055009_1920.jpg);"></div>
+                <div class="section_p_long">
+                    <p>Leirintäkeskuksen kylpyläosasto on auki vuoden ympäri. Kesällä käytössä on myös ulkoallas. Kylpyläosastolla on syvä uima-allas, kaksi poreallasta sekä yksi lasten allas liukumäkineen. Saunaosastolla on tavallinen sauna sekä höyrysauna. Hinta aikuiselta 12 €, opiskelijalta tai eläkeläiseltä 10 € ja kouluikäiseltä lapselta 6 €. Alle kouluikäiset uivat ilmaiseksi.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="section_div">
+            <h1 class="section_h1" >Opastetut luontoretket</h1>
+            <div class="flex_row">
+                <div class="section_img" style="background-image: url(CSS/mountains-4375608_1920.jpg);"></div>
+                <div class="section_p_long">
+                    <p>Kesäaikaan joka lauantai on tarjolla opastettu luontoretki, jolle lähdetään kello 13 päärakennukselta. Reitti ei ole esteetön. Ei vaadi kovaa kuntoa. Hintaan sisältyy pienet eväät. Kesto noin kolme tuntia. Hinta 15 € aikuiselta, 12 € opiskelijalta tai eläkeläiseltä ja 8 € kouluikäiseltä lapselta. Alle kouluikäiset pääsevät mukaan ilmaiseksi.</p> 
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
