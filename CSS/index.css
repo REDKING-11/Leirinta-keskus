@@ -1,5 +1,34 @@
-* {margin: 0px;}
+.header {
+    font-size: 32px !important; 
+}
+ yhdistetty
+/*
+#Front-page-photo {
+    width: 100vw;
+    height: 550px;
+    background-size: cover;
+    background-image: url("Leirintakeskus-luurinmutka.png");
+}
+    */
+body {
+    overflow-x: hidden;
+    background-color: #2F2F2F !important;
+    background-size: cover;
+    background-image: url("Leirintakeskus-luurinmutka.png");
+}
+main {
+    font-size: 23.5px;
+    color: #FFF8DC;
+}
+.a {
+    color: white !important;
+    font-size: 19px !important;
+ yhdistetty
+}
 
-header {
-    height: 100px;
+#tekstit {
+    background-color: rgb(47, 47, 47, 0.8);
+    padding: 20px;
+    margin-top: 550px;
+    border-radius: 20px;
 }

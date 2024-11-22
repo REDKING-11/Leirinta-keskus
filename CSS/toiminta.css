@@ -1,12 +1,12 @@
 * {margin: 0px;}
 
-header {
-    height: 80px;
-    background-color: darkgreen;
-    display: flex;
-    align-items: center;
+.header {
+    font-size: 32px !important; 
 }
-
+.a {
+    color: white !important;
+    font-size: 19px !important;
+}
 header h1 {
     color: aliceblue;
     margin-left: 20px;
@@ -14,7 +14,14 @@ header h1 {
 
 body {
     background-size:cover;
-    background-image: url("background2.jpg");
+    background-image: url("north-4756774.jpg");
+}
+
+.content {
+    position: relative; /* Pitää sisällön overlayn päällä */
+    z-index: 2;
+    color: white; /* Tekstin väri */
+    text-align: center;
 }
 
 main h1 {
@@ -120,18 +127,18 @@ main p {
 }
 
 .esiintyjä_kuva {
-    width: 330px;
-    height: 330px;
+    width: 16vw;
+    height: 16vw;
     background-size: cover;
     border-radius: 25px;
 }
 
 #joku1 {
-    margin-left: 150px;
+    margin: 20px;
 }
 
 #joku2 {
-    margin-left: 50px;
+    margin: 20px;
 }
 
 .minikuva {
