@@ -1,0 +1,41 @@
+.header {
+    font-size: 32px !important; 
+}
+#Front-page-photo {
+    width: 1920px;
+    height: 550px;
+}
+body {
+    overflow-x: hidden;
+    background-color: #2F2F2F !important;
+}
+main {
+    font-size: 23.5px;
+    color: #FFF8DC;
+}
+.a {
+    color: white !important;
+    font-size: 19px !important;
+}
+.aa {
+    color: black !important;
+    text-decoration: none;
+}
+.Cube {
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.flexboy {
+    flex-direction: row;
+}
+.formi {
+    max-width: 650px;
+}
+@media only screen and (max-width: 900px) {
+    .aboutus {
+        width: 100% !important;
+    }
+    .formi {
+        width: 100% !important;
+    }
+}
